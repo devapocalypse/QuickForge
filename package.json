@@ -1,0 +1,24 @@
+{
+  "name": "quickforge",
+  "version": "1.0.0",
+  "description": "A browser-based IDE and learning platform",
+  "homepage": "https://github.com/devapocalypse/QuickForge#readme",
+  "bugs": {
+    "url": "https://github.com/devapocalypse/QuickForge/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devapocalypse/QuickForge.git"
+  },
+  "license": "Source-Available",
+  "author": "devapocalypse",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ejs": "^4.0.1",
+    "express": "^5.2.1"
+  }
+}
