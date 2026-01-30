@@ -11,6 +11,11 @@ app.get("/", (req, res) => {
   res.render("login-home");
 });
 
+app.use((req, res, next) => {
+  res.status(404).render("errors/404", {error: `Page: "quickforge.com${req.originalUrl}" not found. Please check your spelling and try again.`});
+  next();
+})
+
 app.listen(port, () => {
   console.log(`QuickForge listening at http://localhost:${port}`);
 });

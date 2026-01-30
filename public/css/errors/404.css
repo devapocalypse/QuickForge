@@ -1,0 +1,16 @@
+button {
+    border-radius: 5px;
+    background-color: limegreen;
+    border: 0;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+html, body {
+    text-align: center;
+}
